@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  color: #00101d;
+}
+
+.form input {
+  width: 90vw;
+  height: 35px;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+.form label {
+  margin-right: 23em;
+}
+
+.form {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+.forgot {
+  margin-left: 15.5em;
+  position: relative;
+  bottom: 2em;
+  cursor: pointer;
+}
+
+.createAcct a {
+  text-decoration: none;
+  color: #00101d;
+}
+
+.submit {
+  max-width: 100px;
+  height: 35px;
+  background-color: #011627;
+  color: #fff;
+  border: none;
+  margin-right: 20em;
+  cursor: pointer;
+  border-radius: 5px;
+  right: 10.4em;
+}
+
+.createAcct {
+  cursor: pointer;
+  text-align: center;
+  margin-top: -75px;
+}
+
+.newsl {
+  margin-top: 5em;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  text-align: center;
+  margin-top: 7em;
+  margin-bottom: 1em;
+}
+header h2 {
+  font-weight: 700;
+  color: #00101d;
+}
+
+.support {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  header .border {
+    width: 40px;
+    position: relative;
+    left: 45px;
+  }
+  .form input {
+    width: 500px;
+  }
+  .form label {
+    margin-right: 26em;
+  }
+  .submit {
+    position: relative;
+    right: 5em;
+  }
+  .createAcct {
+    margin-right: 9.5em;
+  }
+  .forgot {
+    margin-left: 23em;
+  }
+  #emailo {
+    margin-left: -2.1em;
+  }
+}

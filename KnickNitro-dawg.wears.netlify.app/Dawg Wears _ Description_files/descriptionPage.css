@@ -1,0 +1,276 @@
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #011627;
+}
+
+.description {
+  padding: 0 2rem;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.head p {
+  margin-left: 10px;
+}
+
+.head a {
+  text-decoration: none;
+  color: #011627;
+}
+
+.head span {
+  margin-left: 10px;
+}
+
+.product-desc {
+  width: 340px;
+  height: 360px;
+  position: relative;
+  right: 1em;
+}
+
+.product-img {
+  width: 400px;
+}
+
+.responsible-center {
+  margin-top: 50px;
+}
+
+.left,
+.right {
+  margin-top: 20px;
+}
+
+.star-reviews {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 5px;
+}
+
+.border-p {
+  border-bottom: solid 1px #011627;
+  margin: 1em 5px;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.second-box h3 {
+  font-size: 30px;
+  color: #011627;
+}
+
+.second-box .pri {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.star-reviews {
+  margin-top: 10px;
+}
+
+.star-reviews a {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #011627;
+  text-decoration: none;
+}
+
+.revs {
+  cursor: pointer;
+}
+
+.pag button {
+  padding: 6px 9px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.pag button.active {
+  color: #fff;
+  background-color: #011627;
+}
+
+.radio {
+  margin-top: 15px;
+}
+.pag p {
+  margin-top: 15px;
+}
+
+.wat {
+  margin-top: 30px;
+}
+
+.prev-btn {
+  padding: 1rem 1em;
+  width: 20em;
+  margin-top: 1em;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  background: #eef0f2;
+  color: #00101d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.black {
+  color: #fff;
+  background: #011627;
+}
+
+/* ------- */
+.about {
+  margin-top: 1em;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px black;
+}
+
+.btn-container button {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+.tab-btn {
+  padding: 1rem 0;
+  border: none;
+  background-color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  display: block;
+  cursor: pointer;
+}
+
+.about-content p {
+  margin-top: 20px;
+}
+.somel {
+  margin-right: 1em;
+}
+
+/* hide content */
+.content {
+  display: none;
+}
+.tab-btn.active {
+  border-bottom: solid 2px black;
+}
+.content.active {
+  display: block;
+}
+
+.small-img {
+  width: 50px;
+  height: 50px;
+}
+
+.small {
+  justify-content: center;
+}
+
+.first-box {
+  margin-top: 70px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.second-box {
+  margin-top: 30px;
+}
+
+.about-content ul {
+  margin-top: 20px;
+}
+
+.about-content:hover {
+  text-decoration: none;
+}
+
+#reviews h5 {
+  margin-top: 20px;
+}
+
+.rev {
+  list-style: decimal;
+}
+
+.push,
+.sec,
+.rev li {
+  text-decoration: none;
+}
+
+.rev li {
+  margin-bottom: 20px;
+}
+
+.push,
+.rev {
+  margin-left: 15px;
+}
+
+.sec {
+  list-style: none;
+}
+
+.sec h4 {
+  margin-bottom: 10px;
+  font-family: 'inter';
+  font-weight: bold;
+}
+
+.section-title h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .first-box {
+    position: relative;
+    right: 25%;
+    bottom: 1em;
+  }
+
+  .somel {
+    margin-right: 1em;
+  }
+
+  .second-box {
+    margin-left: 55%;
+    max-width: 600px;
+    margin-top: -26.5em;
+  }
+
+  .btn {
+    position: relative;
+    z-index: 1;
+  }
+}
